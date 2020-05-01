@@ -1,0 +1,96 @@
+.navbar {
+    background-color: rgb(150, 210, 147);
+    width: 100%;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*navegador*/
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.over:hover{
+    color: white;
+}
+
+.nav-link a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+/*hamburguesa*/
+.navbar-light .navbar-toggler {
+    color: rgb(0,0,0);
+    border-color: transparent;
+}
+
+/*selector*/
+.select {
+    height:35px;
+    width:180px;
+    border-radius: 15px;
+    background: white;
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-menu{
+    text-align: left;
+    width: 190px;
+    border-radius: 15px;
+}
+.dropdown-item{
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+.dropdown-menu a:hover,
+.dropdown-menu a:focus{
+    width: auto;
+    background: transparent;
+}
+
+/*ancho de pagina*/
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px; 
+    margin-left: 0px;
+}
+
+@media (max-width: 991px){
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .select {
+        text-align: center;
+    }
+    .dropdown-menu-center{
+        height: auto !important;
+        left: 50% !important;
+        right: auto !important;
+        text-align: center !important;
+        transform: translate(-50%, 0) !important;
+    }
+    .dropdown-menu a:hover,
+    .dropdown-menu a:focus{
+        background: transparent;
+        font-family: 'Poppins';
+        font-size: 13px;
+    }
+}
