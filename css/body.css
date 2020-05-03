@@ -1,0 +1,14 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(251, 250, 248);
+}
+
+.cine {
+    background-image: url(../img/cine.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+

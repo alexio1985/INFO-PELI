@@ -1,4 +1,3 @@
-
 .img-thumbnail {
 	padding: .25rem;
 	background-color: #fff;
@@ -7,6 +6,19 @@
 	width: 100%;
 	height: 950px;
 }
+
+.jumbotron .cine{
+background-image: url("../img/cine.jpg");
+background-image: no-repeat;
+background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
 
 
 

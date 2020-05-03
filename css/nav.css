@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(150, 210, 147);
+    background-color: #343a40;
     width: 100%;
     padding-right: 60px;
     padding-left: 60px;
@@ -11,21 +11,21 @@
 .nav-link{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    color: black;
+    color: white;
 }
 .over:hover{
-    color: white;
+    color: rgb(246, 243, 243);
 }
 
 .nav-link a{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    color: black;
+    color: white;
 }
 
 /*hamburguesa*/
 .navbar-light .navbar-toggler {
-    color: rgb(0,0,0);
+    color: white;
     border-color: transparent;
 }
 
